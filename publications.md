@@ -1,9 +1,10 @@
 ---
-layout: page
-title: publicaciones
+layout: default
+title: "Publicaciones"
 permalink: /publications/
 ---
 
 ## Publicaciones
 
-Aquí puedes escribir las publicaciones
+- 📄 [Título de tu artículo 1](#)
+- 📄 [Título de tu artículo 2](#)
