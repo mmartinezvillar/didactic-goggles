@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Mi Web de Investigador"
-description: "Sitio web personal sobre mi investigaci n"
-baseurl: "/didactic-goggles"
+description: "Sitio web personal sobre mi investigación"
+baseurl: ""
 url: "https://mmartinezvillar.github.io"  # Reemplaza con tu usuario de GitHub
-theme: minima  # Puedes cambiarlo si quieres otro dise otwitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: "tininmartinez"
+github_username: "mmartinezvillar"
 
 # Build settings
 theme: jekyll-theme-modernist
