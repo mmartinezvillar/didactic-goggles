@@ -13,7 +13,7 @@ title: "Bienvenido a Mi Web de Investigador"
 <div class="about-me">
   <img src="/assets/images/foto-perfil.jpg" alt="Foto de Perfil" class="profile-pic">
   <p>
-    Soy **[Tu Nombre]**, investigador en [tu especialidad].  
+    Soy **Martín**, investigador en [tu especialidad].  
     Mis intereses incluyen **[tema 1]**, **[tema 2]** y **[tema 3]**.  
     <br><br>
     📄 [Conoce más sobre mí](/about/)
