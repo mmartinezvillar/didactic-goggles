@@ -7,7 +7,7 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     
     <!-- Agregar CSS -->
-    <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 
     <!-- Agregar icono -->
     <link rel="icon" href="{{ "/assets/images/favicon.ico" | relative_url }}" type="image/x-icon">
@@ -28,6 +28,8 @@
         {{ content }}
     </main>
 
+    <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+    
     <footer>
         <p>© {{ site.time | date: "%Y" }} {{ site.title }} - Todos los derechos reservados.</p>
     </footer>

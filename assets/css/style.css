@@ -46,20 +46,36 @@
     border-radius: 5px;
 }
 
-/* 🔹 Lista de Publicaciones */
-.post-list {
-    list-style-type: none;
+
+/* 🔹 Lista de Noticias Científicas */
+#news-feed {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#news-feed h3 {
+    margin-top: 0;
+}
+
+#news-feed ul {
+    list-style: none;
     padding: 0;
 }
 
-.post-list li {
-    padding: 10px;
+#news-feed li {
+    padding: 5px 0;
     border-bottom: 1px solid #ddd;
 }
 
-.post-date {
-    font-size: 0.9em;
-    color: gray;
+#news-feed li a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+#news-feed li a:hover {
+    text-decoration: underline;
 }
 
 /* 🔹 Contacto */
