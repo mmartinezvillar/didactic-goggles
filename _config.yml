@@ -27,11 +27,6 @@ github_username:  jekyll
 
 # Build settings
 theme: jekyll-theme-modernist
-plugins:
-  - jekyll-feed
-
-
-# Navigation
 navigation:
   - title: "Inicio"
     url: "/"
@@ -43,7 +38,8 @@ navigation:
     url: "/projects/"
   - title: "Contacto"
     url: "/contact/"
-
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
