@@ -1,26 +1,59 @@
 ---
 layout: default
-title: "Mi Página de Investigador"
+title: "Bienvenido a Mi Web de Investigador"
 ---
 
-# ¡Bienvenido a mi página personal! 👋
+<div class="hero">
+  <h1>Bienvenido a mi página personal 👋</h1>
+  <p>Explorando el conocimiento, la ciencia y la innovación.</p>
+</div>
 
-Soy **[Tu Nombre]**, investigador en [tu campo de especialización].  
-Mis intereses incluyen [tema 1], [tema 2] y [tema 3].  
+## 📌 Sobre Mí  
 
-## 🔎 Sobre esta web
-En este sitio encontrarás:
-- 📄 **[Sobre mí](/about/)** → Más información sobre mi trayectoria.
-- 📚 **[Publicaciones](/publications/)** → Artículos y proyectos recientes.
-- 📝 **Últimos posts del blog** → [Ver más](/blog/)
+<div class="about-me">
+  <img src="/assets/images/foto-perfil.jpg" alt="Foto de Perfil" class="profile-pic">
+  <p>
+    Soy **[Tu Nombre]**, investigador en [tu especialidad].  
+    Mis intereses incluyen **[tema 1]**, **[tema 2]** y **[tema 3]**.  
+    <br><br>
+    📄 [Conoce más sobre mí](/about/)
+  </p>
+</div>
+
+---
+
+## 🔎 Áreas de Investigación  
+
+<div class="sections">
+  <div class="section">
+    <h3>📚 Publicaciones</h3>
+    <p>Artículos y proyectos recientes.</p>
+    <a href="/publications/" class="btn">Ver más</a>
+  </div>
+
+  <div class="section">
+    <h3>🚀 Proyectos</h3>
+    <p>Investigaciones activas y colaboraciones.</p>
+    <a href="/projects/" class="btn">Explorar</a>
+  </div>
+
+  <div class="section">
+    <h3>📝 Blog</h3>
+    <p>Reflexiones y noticias de investigación.</p>
+    <a href="/blog/" class="btn">Leer posts</a>
+  </div>
+</div>
 
 ---
 
 ## 📰 Últimas Publicaciones  
 
-<ul>
+<ul class="post-list">
   {% for post in site.posts limit:3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%d-%m-%Y" }})</li>
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>  
+      <span class="post-date">({{ post.date | date: "%d-%m-%Y" }})</span>
+    </li>
   {% endfor %}
 </ul>
 
@@ -29,6 +62,9 @@ En este sitio encontrarás:
 ---
 
 ## 📬 Contacto  
-Si quieres ponerte en contacto conmigo, puedes escribirme a:  
-📧 **[tuemail@ejemplo.com](mailto:tuemail@ejemplo.com)**  
-🌐 [Tu perfil académico](#) | 🔬 [Google Scholar](#) | 🏛️ [ResearchGate](#)
+
+<div class="contact-info">
+  <p>📧 **Email:** [tuemail@ejemplo.com](mailto:tuemail@ejemplo.com)</p>
+  <p>🌐 [Perfil académico](#) | 🔬 [Google Scholar](#) | 🏛️ [ResearchGate](#)</p>
+</div>
+
